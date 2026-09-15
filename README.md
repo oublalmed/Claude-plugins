@@ -30,6 +30,7 @@ La skill `aide` affiche le mode d'emploi à tout moment.
 | Sub-agent | `expert-cadrage-gouvernance` | Relecture de charte de projet, RACI, gouvernance |
 | Sub-agent | `expert-conduite-changement` | Relecture de plan de conduite du changement, risques d'adoption |
 | Sub-agent | `relecteur-pilotage` | Relecture de support de comité de pilotage |
+| Hook | `SessionStart` | Injecte la fiche de contexte, les décisions, le glossaire et la numérotation en cours au démarrage de chaque session |
 
 Le skill de socle se déclenche seul. Les skills génératives et les sub-agents sont des raccourcis, jamais une obligation : tout fonctionne aussi en langage naturel.
 
@@ -55,6 +56,7 @@ Dans Cowork, ouvrir d'abord l'onglet Cowork, puis Customize.
 |---|---|
 | Sub-agents | Se déclenchent automatiquement après la production du livrable dans Claude Code et Cowork. En chat Claude.ai simple, ils apparaissent grisés ; les skills fonctionnent normalement. |
 | Connecteurs | Aucun n'est déclaré par défaut. |
+| Hook `SessionStart` | Ne fonctionne que dans Claude Code, et seulement dans un dossier de mission contenant `00-contexte/contexte-mission.md` — ailleurs il ne produit rien. Il exige `bash` : sous Windows, celui de Git Bash. Sans lui, les skills fonctionnent normalement, le contexte est simplement relu à la demande. |
 | Contraintes sectorielles | Ce plugin ne connaît pas les spécificités réglementaires d'un secteur donné (bancaire, santé, assurance...). Pour la banque, installer aussi `amoa-bancaire`. Pour d'autres secteurs réglementés, fournir la contrainte explicitement dans la demande. |
 
 ## Usage type
@@ -82,3 +84,4 @@ Puis dans Cowork, avant envoi :
 | 0.1.0 | Skill de socle, 6 skills génératives, 8 sub-agents relecteurs |
 | 0.2.0 | Relecture automatique : les agents relecteurs se déclenchent seuls après chaque livrable |
 | 0.3.0 | Contexte de mission lu automatiquement et écrit sur disque : plus rien à recopier |
+| 0.4.0 | Contexte injecté par un hook `SessionStart` : chargé par le harness au démarrage, plus par bonne volonté du modèle |

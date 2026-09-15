@@ -1,0 +1,3 @@
+# Les scripts de hook sont executes par bash, y compris sous Windows.
+# Sans fins de ligne LF, bash echoue sur le \r final de chaque ligne.
+*.sh text eol=lf

@@ -1,0 +1,17 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash \"${CLAUDE_PLUGIN_ROOT}\"/hooks/charger-contexte-mission.sh",
+            "shell": "bash",
+            "timeout": 15,
+            "statusMessage": "Chargement du contexte de mission"
+          }
+        ]
+      }
+    ]
+  }
+}
