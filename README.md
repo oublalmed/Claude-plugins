@@ -35,6 +35,17 @@ Le skill de socle se déclenche seul. Les skills génératives et les sub-agents
 
 ## Installation
 
+### Claude Code
+
+```
+/plugin marketplace add oublalmed/Claude-plugins
+/plugin install amoa-transformation@claude-plugins-marketplace
+```
+
+Puis redémarrer la session pour que les skills et sub-agents soient chargés.
+
+### Claude.ai / Cowork
+
 Customize (barre latérale gauche) > onglet Plugins > téléverser le zip.
 Dans Cowork, ouvrir d'abord l'onglet Cowork, puis Customize.
 
