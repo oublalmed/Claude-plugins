@@ -1,6 +1,6 @@
 ---
 name: relecteur-plan-recette
-description: Relit un plan de recette ou un plan de tests — couverture des cas nominaux, limites et d'erreur, et lien avec les exigences. Invoque-le avant le démarrage de la recette, et quand des anomalies découvertes en recette auraient dû être détectées par le plan de tests.
+description: Relit un plan de recette ou un plan de tests — couverture des cas nominaux, limites et d'erreur, et lien avec les exigences. Invoque-le avant le démarrage de la recette, et quand des anomalies découvertes en recette auraient dû être détectées par le plan de tests. À INVOQUER AUTOMATIQUEMENT, sans attendre une demande explicite de l'utilisateur, dès qu'un plan de recette ou un plan de tests vient d'être rédigé.
 model: sonnet
 effort: medium
 maxTurns: 15

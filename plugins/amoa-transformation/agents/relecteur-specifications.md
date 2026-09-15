@@ -1,6 +1,6 @@
 ---
 name: relecteur-specifications
-description: Relit une spécification fonctionnelle générique (tous secteurs) sous l'angle complétude, cohérence, clarté et testabilité. Invoque-le avant tout envoi d'une spécification à un client, une DSI ou une équipe de développement, et pour diagnostiquer pourquoi une spec fait l'objet d'allers-retours répétés.
+description: Relit une spécification fonctionnelle générique (tous secteurs) sous l'angle complétude, cohérence, clarté et testabilité. Invoque-le avant tout envoi d'une spécification à un client, une DSI ou une équipe de développement, et pour diagnostiquer pourquoi une spec fait l'objet d'allers-retours répétés. À INVOQUER AUTOMATIQUEMENT, sans attendre une demande explicite de l'utilisateur, dès qu'une spécification fonctionnelle ou une expression de besoin vient d'être rédigée.
 model: sonnet
 effort: medium
 maxTurns: 15

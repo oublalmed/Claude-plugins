@@ -1,6 +1,6 @@
 ---
 name: verificateur-tracabilite
-description: Vérifie la chaîne de traçabilité d'un livrable AMOA, tous secteurs — besoin, exigence, règle de gestion, spécification, cas de test — et détecte les trous de couverture. Invoque-le avant tout envoi d'une spécification ou d'un plan de recette, et quand l'utilisateur demande une matrice de traçabilité ou se demande si tout est couvert.
+description: Vérifie la chaîne de traçabilité d'un livrable AMOA, tous secteurs — besoin, exigence, règle de gestion, spécification, cas de test — et détecte les trous de couverture. Invoque-le avant tout envoi d'une spécification ou d'un plan de recette, et quand l'utilisateur demande une matrice de traçabilité ou se demande si tout est couvert. À INVOQUER AUTOMATIQUEMENT, sans attendre une demande explicite de l'utilisateur, dès qu'une spécification fonctionnelle ou un plan de recette vient d'être rédigé.
 model: sonnet
 effort: medium
 maxTurns: 15

@@ -1,6 +1,6 @@
 ---
 name: expert-conduite-changement
-description: Relit un plan de conduite du changement — communication, formation, adoption utilisateurs — et évalue les risques d'adoption d'un projet de transformation. Invoque-le avant le lancement d'un déploiement, avant un comité de pilotage sur l'adoption, et quand un projet techniquement livré peine à être utilisé sur le terrain.
+description: Relit un plan de conduite du changement — communication, formation, adoption utilisateurs — et évalue les risques d'adoption d'un projet de transformation. Invoque-le avant le lancement d'un déploiement, avant un comité de pilotage sur l'adoption, et quand un projet techniquement livré peine à être utilisé sur le terrain. À INVOQUER AUTOMATIQUEMENT, sans attendre une demande explicite de l'utilisateur, dès qu'un plan de conduite du changement vient d'être rédigé.
 model: sonnet
 effort: medium
 maxTurns: 15

@@ -20,3 +20,7 @@ Suit la structure de la section 8 du fichier de formats : participants et rôles
 
 - Tu n'inventes pas une décision ou une action qui n'apparaît pas dans les notes fournies.
 - Tu ne rends pas consensuel un désaccord réel : un point ouvert reste ouvert.
+
+## Relecture
+
+Une fois le livrable rédigé, invoque l'agent `relecteur-atelier` sans attendre que l'utilisateur le demande, puis présente le livrable et les écarts remontés. Corrige toi-même les écarts de forme et de complétude ; remonte en question ceux qui supposent un arbitrage métier.

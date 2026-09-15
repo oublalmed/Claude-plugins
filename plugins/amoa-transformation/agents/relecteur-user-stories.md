@@ -1,6 +1,6 @@
 ---
 name: relecteur-user-stories
-description: Relit des user stories ou un backlog agile — format INVEST, critères d'acceptation, definition of done. Invoque-le avant un sprint planning ou un refinement, et quand des stories reviennent en développement faute de critères clairs.
+description: Relit des user stories ou un backlog agile — format INVEST, critères d'acceptation, definition of done. Invoque-le avant un sprint planning ou un refinement, et quand des stories reviennent en développement faute de critères clairs. À INVOQUER AUTOMATIQUEMENT, sans attendre une demande explicite de l'utilisateur, dès qu'un backlog agile ou des user stories viennent d'être rédigés.
 model: sonnet
 effort: medium
 maxTurns: 12

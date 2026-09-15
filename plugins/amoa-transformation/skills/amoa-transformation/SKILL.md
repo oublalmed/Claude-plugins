@@ -73,6 +73,28 @@ Le livrable n'est pas terminé tant que **toutes** ces conditions ne sont pas re
 
 Si une condition ne peut pas être remplie faute d'information, le déclarer explicitement plutôt que la contourner.
 
+## Relecture automatique
+
+Après avoir produit un livrable, **invoque systématiquement l'agent relecteur correspondant, sans attendre que l'utilisateur le demande**. La relecture fait partie de la production : un livrable non relu n'est pas terminé.
+
+| Livrable produit | Agent à invoquer |
+|---|---|
+| Note de cadrage, charte de projet, RACI, gouvernance | `expert-cadrage-gouvernance` |
+| Spécification fonctionnelle, expression de besoin | `relecteur-specifications` puis `verificateur-tracabilite` |
+| Plan de recette, plan de tests | `relecteur-plan-recette` puis `verificateur-tracabilite` |
+| Compte rendu d'atelier | `relecteur-atelier` |
+| Backlog agile, user stories | `relecteur-user-stories` |
+| Plan de conduite du changement | `expert-conduite-changement` |
+| Support de comité de pilotage | `relecteur-pilotage` |
+| Analyse de processus AS-IS/TO-BE, BPMN | `relecteur-specifications` |
+
+Règles d'application :
+
+1. Produis d'abord le livrable complet, puis lance la relecture — jamais l'inverse.
+2. Présente à l'utilisateur le livrable **et** les écarts remontés, en distinguant ce que tu as corrigé de ce qui demande un arbitrage métier.
+3. Corrige toi-même les écarts de forme, de complétude et de traçabilité. Ne corrige jamais seul un écart qui suppose une décision métier : remonte-le en question.
+4. Si l'utilisateur demande explicitement « sans relecture » ou « juste un brouillon », passe cette étape et dis-le.
+
 ## Format de sortie
 
 **Par défaut**, si la demande ne correspond à aucun format catalogué :

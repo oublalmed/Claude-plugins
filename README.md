@@ -53,7 +53,7 @@ Dans Cowork, ouvrir d'abord l'onglet Cowork, puis Customize.
 
 | Limite | Détail |
 |---|---|
-| Sub-agents | Ne tournent que dans Cowork. En chat ils apparaissent grisés ; skills fonctionnent normalement. |
+| Sub-agents | Se déclenchent automatiquement après la production du livrable dans Claude Code et Cowork. En chat Claude.ai simple, ils apparaissent grisés ; les skills fonctionnent normalement. |
 | Connecteurs | Aucun n'est déclaré par défaut. |
 | Contraintes sectorielles | Ce plugin ne connaît pas les spécificités réglementaires d'un secteur donné (bancaire, santé, assurance...). Pour la banque, installer aussi `amoa-bancaire`. Pour d'autres secteurs réglementés, fournir la contrainte explicitement dans la demande. |
 
@@ -80,3 +80,4 @@ Puis dans Cowork, avant envoi :
 | Version | Contenu |
 |---|---|
 | 0.1.0 | Skill de socle, 6 skills génératives, 8 sub-agents relecteurs |
+| 0.2.0 | Relecture automatique : les agents relecteurs se déclenchent seuls après chaque livrable |

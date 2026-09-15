@@ -19,3 +19,7 @@ Rédige une spécification fonctionnelle en appliquant le skill `amoa-transforma
 4. Termine par « Prochaines étapes » et « À confirmer avec le métier ».
 
 Si l'utilisateur veut un fichier diffusable, produis un `.docx`.
+
+## Relecture
+
+Une fois le livrable rédigé, invoque l'agent `relecteur-specifications` puis l'agent `verificateur-tracabilite` sans attendre que l'utilisateur le demande, puis présente le livrable et les écarts remontés. Corrige toi-même les écarts de forme et de complétude ; remonte en question ceux qui supposent un arbitrage métier.

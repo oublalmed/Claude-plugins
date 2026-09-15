@@ -2,7 +2,7 @@
   "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
   "name": "amoa-transformation",
   "displayName": "AMOA Transformation",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Livrables AMOA / Business Analyst pour missions de conseil en transformation digitale et process, tous secteurs : cadrage, expression de besoin, specifications, BPMN, backlog agile, plans de recette, comptes rendus d'atelier, tracabilite, RACI, conduite du changement, supports de comite de pilotage.",
   "keywords": [
     "amoa",

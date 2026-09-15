@@ -23,3 +23,7 @@ Rédige un plan de conduite du changement en appliquant le skill `amoa-transform
 Utilise les grilles ADKAR ou Kotter comme structure si l'utilisateur n'en impose pas d'autre.
 
 Si l'utilisateur veut un fichier diffusable, produis un `.docx` ou un `.pptx` selon l'usage prévu (document projet ou support de présentation).
+
+## Relecture
+
+Une fois le livrable rédigé, invoque l'agent `expert-conduite-changement` sans attendre que l'utilisateur le demande, puis présente le livrable et les écarts remontés. Corrige toi-même les écarts de forme et de complétude ; remonte en question ceux qui supposent un arbitrage métier.

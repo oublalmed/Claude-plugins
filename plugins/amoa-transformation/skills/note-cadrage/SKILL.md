@@ -19,3 +19,7 @@ Rédige une note de cadrage en appliquant le skill `amoa-transformation`.
 4. Termine par « Hypothèses et points à arbitrer », en distinguant clairement ce qui est une hypothèse de ce qui est déjà tranché.
 
 Si l'utilisateur veut un fichier diffusable, produis un `.docx`.
+
+## Relecture
+
+Une fois le livrable rédigé, invoque l'agent `expert-cadrage-gouvernance` sans attendre que l'utilisateur le demande, puis présente le livrable et les écarts remontés. Corrige toi-même les écarts de forme et de complétude ; remonte en question ceux qui supposent un arbitrage métier.

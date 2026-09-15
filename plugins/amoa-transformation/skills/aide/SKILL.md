@@ -20,7 +20,7 @@ Affiche le mode d'emploi du plugin `amoa-transformation`.
 | `compte-rendu-atelier` | Compte rendu d'atelier métier |
 | `plan-conduite-changement` | Plan de conduite du changement |
 
-**Agents relecteurs** (disponibles dans Cowork, en mentionnant `@amoa-transformation:<nom>`) :
+**Agents relecteurs** — ils se déclenchent automatiquement après la production du livrable correspondant. Tu peux aussi en appeler un directement avec `@amoa-transformation:<nom>`, ou demander « sans relecture » pour les désactiver ponctuellement :
 
 | Agent | Relit |
 |---|---|
@@ -37,6 +37,6 @@ Affiche le mode d'emploi du plugin `amoa-transformation`.
 
 1. `contexte-mission` une fois en début de mission.
 2. Produire le livrable avec la skill générative correspondante, ou en langage naturel.
-3. Avant envoi, faire relire par l'agent correspondant.
+3. La relecture par l'agent correspondant est automatique avant envoi — rien à lancer à la main.
 
 Si le sujet est bancaire (core banking, paiements, monétique, réglementation), recommander d'installer aussi le plugin `amoa-bancaire`, qui apporte la profondeur métier bancaire — les deux plugins se combinent sans conflit.

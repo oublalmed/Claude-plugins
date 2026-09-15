@@ -1,6 +1,6 @@
 ---
 name: relecteur-atelier
-description: Relit un compte rendu d'atelier métier — décisions, actions, points ouverts — et vérifie qu'il est exploitable par quelqu'un qui n'était pas présent. Invoque-le juste après un atelier, avant sa diffusion aux parties prenantes.
+description: Relit un compte rendu d'atelier métier — décisions, actions, points ouverts — et vérifie qu'il est exploitable par quelqu'un qui n'était pas présent. Invoque-le juste après un atelier, avant sa diffusion aux parties prenantes. À INVOQUER AUTOMATIQUEMENT, sans attendre une demande explicite de l'utilisateur, dès qu'un compte rendu d'atelier vient d'être rédigé.
 model: sonnet
 effort: low
 maxTurns: 10

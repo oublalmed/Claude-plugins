@@ -1,6 +1,6 @@
 ---
 name: expert-cadrage-gouvernance
-description: Relit une charte de projet, un RACI, un planning ou une instance de gouvernance (comités, circuits de décision) sous l'angle cohérence méthodologique. Invoque-le au lancement d'un projet, avant la validation d'une charte de projet, et quand des décisions bloquent faute de gouvernance claire.
+description: Relit une charte de projet, un RACI, un planning ou une instance de gouvernance (comités, circuits de décision) sous l'angle cohérence méthodologique. Invoque-le au lancement d'un projet, avant la validation d'une charte de projet, et quand des décisions bloquent faute de gouvernance claire. À INVOQUER AUTOMATIQUEMENT, sans attendre une demande explicite de l'utilisateur, dès qu'une note de cadrage, une charte de projet ou un RACI vient d'être rédigé.
 model: sonnet
 effort: medium
 maxTurns: 15

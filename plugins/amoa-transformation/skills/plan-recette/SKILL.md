@@ -19,3 +19,7 @@ Rédige un plan de recette en appliquant le skill `amoa-transformation`.
 5. Termine par les critères de sortie de la recette (taux de réussite exigé, anomalies bloquantes résiduelles tolérées).
 
 Si l'utilisateur veut un fichier diffusable, produis un `.xlsx`.
+
+## Relecture
+
+Une fois le livrable rédigé, invoque l'agent `relecteur-plan-recette` puis l'agent `verificateur-tracabilite` sans attendre que l'utilisateur le demande, puis présente le livrable et les écarts remontés. Corrige toi-même les écarts de forme et de complétude ; remonte en question ceux qui supposent un arbitrage métier.

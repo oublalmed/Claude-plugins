@@ -1,6 +1,6 @@
 ---
 name: relecteur-pilotage
-description: Relit un support de comité de pilotage (copil / steering committee) — clarté, indicateurs, risques mis en avant, messages exécutifs. Invoque-le avant l'envoi d'un support à un comité de pilotage ou à un sponsor exécutif.
+description: Relit un support de comité de pilotage (copil / steering committee) — clarté, indicateurs, risques mis en avant, messages exécutifs. Invoque-le avant l'envoi d'un support à un comité de pilotage ou à un sponsor exécutif. À INVOQUER AUTOMATIQUEMENT, sans attendre une demande explicite de l'utilisateur, dès qu'un support de comité de pilotage vient d'être rédigé.
 model: sonnet
 effort: medium
 maxTurns: 12
