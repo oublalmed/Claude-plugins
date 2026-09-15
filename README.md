@@ -81,3 +81,4 @@ Puis dans Cowork, avant envoi :
 |---|---|
 | 0.1.0 | Skill de socle, 6 skills génératives, 8 sub-agents relecteurs |
 | 0.2.0 | Relecture automatique : les agents relecteurs se déclenchent seuls après chaque livrable |
+| 0.3.0 | Contexte de mission lu automatiquement et écrit sur disque : plus rien à recopier |

@@ -8,7 +8,7 @@
       "name": "amoa-transformation",
       "source": "./plugins/amoa-transformation",
       "description": "Livrables AMOA / Business Analyst pour missions de conseil en transformation digitale et process, tous secteurs : cadrage, expression de besoin, specifications, BPMN, backlog agile, plans de recette, comptes rendus d'atelier, tracabilite, RACI, conduite du changement, supports de comite de pilotage.",
-      "version": "0.2.0",
+      "version": "0.3.0",
       "category": "productivity",
       "tags": ["amoa", "business-analyst", "transformation-digitale", "conseil", "cadrage", "agile"]
     }

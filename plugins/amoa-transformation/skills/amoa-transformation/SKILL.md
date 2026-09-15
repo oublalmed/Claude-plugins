@@ -36,6 +36,22 @@ Le risque dominant d'un livrable AMOA n'est pas l'erreur de rédaction : c'est *
 
 Séparer AS-IS et TO-BE force par ailleurs à distinguer un *constat* d'une *décision*. Un livrable qui mélange les deux ne passe pas en comité.
 
+## Contexte de mission — à lire en premier
+
+**Avant toute production, sans que l'utilisateur ait à le demander**, cherche le contexte de mission dans cet ordre et lis le premier trouvé :
+
+1. `00-contexte/contexte-mission.md` à la racine du projet
+2. `.amoa/contexte-mission.md`
+3. Un `CLAUDE.md` de projet qui désigne un autre emplacement
+
+Lis aussi, s'ils existent : `00-contexte/decisions.md` (ce qui y figure est **tranché** — ne le rouvre pas), `00-contexte/glossaire-projet.md` (utilise ce vocabulaire, pas un synonyme) et `00-contexte/parties-prenantes.md`.
+
+- Si le fichier existe et qu'un champ `À REMPLIR` **bloque la demande en cours** → pose la question, ne suppose pas.
+- Si un champ `À REMPLIR` ne bloque pas → poursuis et signale-le en fin de livrable.
+- Si aucun fichier de contexte n'existe → applique le skill `contexte-mission` pour le créer, puis reprends la demande.
+
+Ne redemande jamais à l'utilisateur une information déjà présente dans ces fichiers.
+
 ## Séquence de travail
 
 1. **Reformuler** le besoin en une phrase. Si la reformulation est ambiguë, s'arrêter et questionner.
