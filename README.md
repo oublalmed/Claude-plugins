@@ -39,7 +39,7 @@ Le skill de socle se déclenche seul. Les skills génératives et les sub-agents
 
 ```
 /plugin marketplace add oublalmed/Claude-plugins
-/plugin install amoa-transformation@claude-plugins-marketplace
+/plugin install amoa-transformation@oublalmed-plugins
 ```
 
 Puis redémarrer la session pour que les skills et sub-agents soient chargés.
